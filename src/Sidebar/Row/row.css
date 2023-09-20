@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3.5rem;
+
+}
+.icon{
+    width: 2rem;
+    margin-left:3.5rem;
+    margin-right: .8rem;
+}
+.indicator{
+    width: .5rem;
+    background-color: #6EB896;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.text{
+    font-family: 'outfit';
+    font-size: 1.3rem;
+    margin-right: auto;
+    font-weight: bold;
+
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Potta+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#sidebar{
+    height: 100vh;
+    width: 18rem;
+    background-color: #F3F5F4;
+    display: flex;
+    flex-direction: column;
+}
+#logo-container{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+#logo-container img{
+   width: 4.3rem;
+   display: inline-block;
+   padding: 1rem 1rem 1rem 1.5rem;
+   border-radius: 15rem;
+   margin-left: 0;
+}
+#logo-container p{
+    font-family: 'potta one';
+    font-size: medium;
+
+}
+.lr {
+    width: 2.5rem;
+    height: 0.5rem;
+    background-color: #E0E0E0;
+    margin: 3.5rem auto 0.5rem 1rem;
+    border-radius: 4rem;
+}
+#team-name{
+    font-family: 'outfit';
+    font-size: .8rem;
+    margin: auto auto;
+}
+#team-name span{
+    color: #EE3C49;
+}

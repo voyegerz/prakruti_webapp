@@ -9,6 +9,8 @@
     background-color: #F3F5F4;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 0;
 }
 #logo-container{
     width: 100%;

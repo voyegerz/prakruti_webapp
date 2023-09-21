@@ -1,0 +1,38 @@
+#header{
+    width: 100%;
+    height: 9rem;
+    background-color: #BFE1CC;
+
+}
+#h1{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#page-title{
+    display: inline;
+    font-family: 'outfit';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #474747;
+    margin: 0 0  0 2rem;
+
+}
+#profile-icon{
+    width: 3.3rem;
+    margin: 1.3rem 3rem 0 0;
+    border: 4px solid #429677;
+    border-radius: 100%;
+    cursor: pointer;
+}
+#username{
+    margin: .5rem 0 0 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'outfit';
+    color: #5A5A5A;
+
+}

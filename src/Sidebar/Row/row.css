@@ -5,6 +5,10 @@
     height: 3.5rem;
 
 }
+.row:hover, .row:focus{
+    background-color: #E2F2EA;
+    cursor: pointer;
+}
 .icon{
     width: 2rem;
     margin-left:3.5rem;

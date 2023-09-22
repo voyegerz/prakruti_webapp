@@ -16,7 +16,7 @@ export default function Sidebar() {
         <Row text={"Settings"}/>
         <Row text={"Account"}/>
         <div id='team-name'>
-            <p>Made with <span>❤</span> by Team<br></br>
+            <p>Made with <span id='H'>❤</span> by Team<br></br>
                     VedicVoyagers
             </p>
             <div id='line-with-diamonds'>

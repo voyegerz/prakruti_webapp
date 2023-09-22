@@ -1,13 +1,36 @@
-/* #textarea{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 3rem;
+
+#prompt-container{
+    width: 100%;
+    align-self: flex-end;
+    
+}
+#text-area{
+    width: 100%;
+    padding: .7rem 0 .7rem 0;
+    border: none;
+    outline: none;
+    background-color: #E3EDE8;
+    position: relative;
+    color: #ADB2B1;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'outfit';
+    
+}
+#text-area::placeholder{
+    text-indent: 2rem;
+    line-height:2rem;
+    letter-spacing: 2px;
 }
 #send-button{
-    z-index: 10;
-    width: 3rem;
     position: absolute;
-    display: block;
-} */
+    bottom: .5rem; 
+    right: 2rem; 
+    background: none; 
+    border: none;
+    cursor: pointer;
+}
+#send-button img{
+    width: 2.5rem; 
+    height: auto; 
+}

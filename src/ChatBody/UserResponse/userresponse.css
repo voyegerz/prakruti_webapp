@@ -1,0 +1,36 @@
+.user-response{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 3rem;
+}
+.user-avatar{
+    width: 2.6rem;
+    height: 2.5rem;
+    border-radius: 48%;
+    border: 2px solid #6EB896;
+    object-fit: cover;
+    align-self: last baseline;
+}
+.options p{
+    background-color: #F3F5F4;
+    padding: .8rem;
+    border-radius: 6px 6px 2px 6px;
+    margin-right: 1.5rem;
+    font-size: 1.1rem;
+    color: #747474;
+    flex-basis: 0;
+    max-width: fit-content;
+    align-self: flex-end;
+    background-color: #59D089;
+    color: #D0FFE3;
+    
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    cursor: pointer;
+}
+.options p:active{
+    background-color: #429677;
+}

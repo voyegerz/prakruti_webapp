@@ -1,0 +1,11 @@
+.bar{
+    height: 6px;
+    width: 100%;
+}
+.empty{
+    background-color: #9BD6B2;
+}
+.fill{
+    background-color: #59D089;
+    width: 40%;
+}

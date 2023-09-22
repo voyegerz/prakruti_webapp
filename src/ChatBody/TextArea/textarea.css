@@ -1,0 +1,13 @@
+#textarea{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+}
+#send-button{
+    z-index: 10;
+    width: 3rem;
+    position: absolute;
+    display: block;
+}

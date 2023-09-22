@@ -1,0 +1,11 @@
+#chat-body{
+
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #BFE1CC;
+    position: relative;
+    overflow-y: auto;
+    
+}

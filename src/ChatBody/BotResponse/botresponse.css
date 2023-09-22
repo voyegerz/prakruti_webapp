@@ -1,0 +1,22 @@
+.bot-response{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 3rem;
+}
+.bot-avatar{
+    width: 2.6rem;
+    height: 2.5rem;
+    border-radius: 48%;
+    border: 2px solid #6EB896;
+    object-fit: cover;
+    align-self: last baseline;
+}
+.bot-response p{
+    background-color: #F3F5F4;
+    padding: .8rem;
+    border-radius: 6px 6px 6px 2px;
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+    color: #747474;
+    
+}

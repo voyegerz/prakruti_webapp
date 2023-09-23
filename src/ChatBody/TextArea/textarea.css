@@ -1,34 +1,42 @@
 
 #prompt-container{
-    width: 100%;
+    width: calc(100vw - 18rem) ;
     align-self: flex-end;
+    position: relative;
+    bottom: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    height: 5rem;
     
 }
 #text-area{
     width: 100%;
-    padding: .7rem 0 .7rem 0;
+    height: 100%;
     border: none;
     outline: none;
     background-color: #E3EDE8;
-    position: relative;
     color: #ADB2B1;
     font-size: 1rem;
     font-weight: bold;
     font-family: 'outfit';
+    /* padding: 1rem 2rem 1rem 2rem; */
+    padding: 1rem;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    bottom: 0;
     
 }
 #text-area::placeholder{
-    text-indent: 2rem;
-    line-height:2rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 #send-button{
     position: absolute;
-    bottom: .5rem; 
+    bottom: .9rem; 
     right: 2rem; 
     background: none; 
     border: none;
     cursor: pointer;
+    border: 2px solid blue;
 }
 #send-button img{
     width: 2.5rem; 

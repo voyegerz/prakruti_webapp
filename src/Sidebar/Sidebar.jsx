@@ -12,6 +12,7 @@ export default function Sidebar() {
         </div>
         <div className='lr lr-1'></div>
         <Row text={"Assessment"}/>
+        <Row text={"Ask"}/>
         <div className='lr lr-2'></div>
         <Row text={"Settings"}/>
         <Row text={"Account"}/>

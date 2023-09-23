@@ -1,13 +1,24 @@
+.main{
+    height: calc(100% - 5rem);
+    border: 2px solid red;
+}
 #chat-body{
 
     background-color: red;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 2rem;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color: #BFE1CC;
     /* position: relative; */
     overflow-y: auto;
     height: calc(100vh - 8rem);
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    transition: .5s all;
     
+}
+#chat-body::-webkit-scrollbar {
+    display: none;
 }

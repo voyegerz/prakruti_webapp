@@ -3,6 +3,8 @@ import './row.css'
 import assessment from './icons/assessment.png'
 import settings from './icons/settings.png'
 import account from './icons/account.png'
+import ask from './icons/ask_us.png'
+
 
 
 export default function Row(props) {
@@ -13,6 +15,8 @@ export default function Row(props) {
     icon = settings;
   }else if(props.text === "Account"){
     icon = account;
+  }else if(props.txt === "Ask"){
+    icon = ask;
   }
 
   return (

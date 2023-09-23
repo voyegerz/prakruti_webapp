@@ -4,7 +4,7 @@ import UserAvatar from '../../Header/profile.svg'
 
 export default function UserResponse() {
   return (
-    <li className='user-response'>
+    <li className='chat user-response'>
       <div className="options">
         <p id='option-1'>Steady and abundant.</p>
         <p id='option-2'>Moderately and consistent.</p>

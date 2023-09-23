@@ -4,7 +4,7 @@ import BotAvatar from '../../Sidebar/logo-prakruti.png'
 
 export default function BotResponse() {
   return (
-    <li className='bot-response'>
+    <li className='chat bot-response'>
       <img src={BotAvatar} className='bot-avatar' alt="" />
       <p>How is your energy level ?</p>
     </li>

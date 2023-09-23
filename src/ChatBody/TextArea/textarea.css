@@ -1,11 +1,10 @@
 
 #prompt-container{
-    width: calc(100vw - 18rem) ;
+    width: calc(100vw - 19rem) ;
     align-self: flex-end;
-    position: relative;
+    position: fixed;
     bottom: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
     height: 5rem;
     
 }
@@ -19,10 +18,8 @@
     font-size: 1rem;
     font-weight: bold;
     font-family: 'outfit';
-    /* padding: 1rem 2rem 1rem 2rem; */
     padding: 1rem;
     box-sizing: border-box;
-    /* border: 2px solid black; */
     bottom: 0;
     
 }
@@ -36,7 +33,6 @@
     background: none; 
     border: none;
     cursor: pointer;
-    border: 2px solid blue;
 }
 #send-button img{
     width: 2.5rem; 

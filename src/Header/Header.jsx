@@ -11,7 +11,7 @@ export default function Header() {
             <Search/>
             <img src={ProfileIcon} alt="Profile" id="profile-icon" />
         </div>
-        <p id='username' >Hi, Neeraj</p>
+        <p id='username' >Hi, Voyagers</p>
     </div>
   )
 }

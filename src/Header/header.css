@@ -1,8 +1,9 @@
 #header{
     width: 100%;
-    height: 8rem;
+    height: 6rem;
     background-color: #BFE1CC;
-    /* add blur here */
+    box-sizing: border-box;
+    position: relative;
 
 }
 #h1{
@@ -29,11 +30,29 @@
     border-radius: 100%;
     cursor: pointer;
 }
-#username{
+/* #username{
     margin: 0 0 0 2rem;
     font-size: 2rem;
     font-weight: bold;
     font-family: 'outfit';
     color: #5A5A5A;
 
-}
+} */
+
+/* media queries */
+
+/* Add a media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    #h1 {
+      padding: 0.5rem 1rem;
+    }
+  
+    #page-title {
+      font-size: 1.5rem;
+    }
+  
+    #profile-icon {
+      width: 2.5rem;
+      margin: 0.8rem 1rem 0 0;
+    }
+  }

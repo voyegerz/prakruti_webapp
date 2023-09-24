@@ -1,3 +1,7 @@
+:root {
+    --scrollbar-track-color: #E3EDE8; /* Track color */
+    --scrollbar-thumb-color: #6ABE45; /* Thumb color (green accent) */
+  }
 
 #prompt-container{
     width: calc(100vw - 19rem) ;
@@ -6,7 +10,7 @@
     bottom: 0;
     box-sizing: border-box;
     height: 5rem;
-    
+    /* display: none; */
 }
 #text-area{
     width: 100%;
@@ -38,3 +42,23 @@
     width: 2.5rem; 
     height: auto; 
 }
+.chat-messages{
+    overflow-y: auto;
+}
+
+/* scroll */
+
+#text-area::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+
+  #text-area::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color);
+  }
+  
+
+  #text-area::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color);
+    border-radius: 6px;
+  }

@@ -1,63 +1,47 @@
-/* Define CSS custom properties for scrollbar colors */
+
 :root {
     --scrollbar-track-color: #E3EDE8; /* Track color */
     --scrollbar-thumb-color: #6ABE45; /* Thumb color (green accent) */
   }
   
-  /* Style the chat body with scrollbar */
   #chat-body {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     gap: 2rem;
     background-color: #BFE1CC;
     overflow-y: auto;
-    height: calc(100vw - 13rem);
     box-sizing: border-box;
-    padding-bottom: 2rem;
-    transition: 0.5s all;
-  
-    /* Define scrollbar styles */
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 11rem);
+    padding: 2rem;
+
+    /* scrollbar */
     scrollbar-width: thin;
     scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
-  }
-  
-  /* Hide scrollbar in Firefox */
-  #chat-body::-webkit-scrollbar {
-    width: 8px; /* Adjust the width as needed */
-  }
-  
-  /* Style the scrollbar track */
-  #chat-body::-webkit-scrollbar-track {
-    background: var(--scrollbar-track-color);
-  }
-  
-  /* Style the scrollbar thumb */
-  #chat-body::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-thumb-color);
-    border-radius: 8px; /* Rounded thumb */
-  }
-  
-  /* Style the chat body with scrollbar for WebKit-based browsers */
-#chat-body {
 
-  /* Style the scrollbar for WebKit-based browsers */
-  scrollbar-width: thin;
-  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
-}
+  }
 
-/* Style the scrollbar for WebKit-based browsers */
-#chat-body::-webkit-scrollbar {
-  width: 8px; /* Adjust the width as needed */
-}
+  #chat-body::-webkit-scrollbar-track{
+    background: transparent;
+  }
 
-/* Style the scrollbar track for WebKit-based browsers */
+  /* Track styles for WebKit browsers */
 #chat-body::-webkit-scrollbar-track {
   background: var(--scrollbar-track-color);
 }
 
-/* Style the scrollbar thumb for WebKit-based browsers */
+/* Thumb styles for WebKit browsers */
 #chat-body::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-thumb-color);
-  border-radius: 8px; /* Rounded thumb */
+  border-radius: 6px;
+}
+
+/* media q*/
+
+@media screen and (max-width: 768px) {
+  #chat-body {
+    padding: 1rem;
+  }
 }

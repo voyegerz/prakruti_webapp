@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import Search from './Search/Search'
 import ProfileIcon from './profile.svg'
+import ProgressBar from './ProgressBar/ProgressBar';
 
 export default function Header() {
   return (
@@ -11,7 +12,8 @@ export default function Header() {
             <Search/>
             <img src={ProfileIcon} alt="Profile" id="profile-icon" />
         </div>
-        <p id='username' >Hi, Voyagers</p>
+        {/* <p id='username' >Hi, Voyagers</p> */}
+        <ProgressBar />
     </div>
   )
 }

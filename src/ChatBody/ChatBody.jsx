@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
-import ProgressBar from './ProgressBar/ProgressBar';
+import React, { useState, useRef, useEffect } from 'react';
 import BotResponse from './BotResponse/BotResponse';
 import UserResponse from './UserResponse/UserResponse';
 import TextArea from './TextArea/TextArea';
-import BotAvatar from '../Sidebar/logo-prakruti.png'
-import UserAvatar from '../Header/profile.svg'
+import BotAvatar from '../Sidebar/logo-prakruti.png';
+import UserAvatar from '../Header/profile.svg';
 import './chatbody.css';
-
 
 export default function ChatBody() {
   const [chatMessages, setChatMessages] = useState([]);
+  const chatBodyRef = useRef(null);
 
   // Function to add a new chat message to the state
   const addChatMessage = (message, className) => {
@@ -17,10 +16,19 @@ export default function ChatBody() {
     setChatMessages([...chatMessages, newMessage]);
   };
 
+  useEffect(() => {
+    scrollToBottom();
+  }, [chatMessages]);
+
+  const scrollToBottom = () => {
+    if (chatBodyRef.current) {
+      chatBodyRef.current.scrollTop = chatBodyRef.current.scrollHeight;
+    }
+  };
+
   return (
     <div className="main">
-      <ul id='chat-body'>
-        <ProgressBar />
+      <ul id='chat-body' ref={chatBodyRef}>
         <BotResponse />
         <UserResponse />
         {chatMessages.map((message, index) => (

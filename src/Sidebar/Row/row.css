@@ -3,12 +3,12 @@
     align-items: center;
     justify-content: space-evenly;
     height: 3.5rem;
-    transition: background-color 0.3s ease; /* Add a transition for smooth color change */
+    transition: background-color 0.3s ease; /* smooth color change */
   }
   
   .row:hover,
   .row:focus,
-  .row.active { /* Add a new class for active (clicked) rows */
+  .row.active { 
     background-color: #E2F2EA;
     cursor: pointer;
   }
@@ -33,4 +33,3 @@
     margin-right: auto;
     font-weight: bold;
   }
-  

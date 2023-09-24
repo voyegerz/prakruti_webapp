@@ -33,7 +33,7 @@ export default function Row(props) {
     >
       <img src={icon} className='icon' alt="" />
       <p className='text'>{props.text}</p>
-      <div className='indicator'></div>
+      <div className= {`${isActive ? 'indicator' : ''}`}></div>
     </div>
   );
 }

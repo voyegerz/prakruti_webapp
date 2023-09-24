@@ -25,6 +25,7 @@
     padding: 1rem;
     box-sizing: border-box;
     bottom: 0;
+    letter-spacing: 1px;
     
 }
 #text-area::placeholder{

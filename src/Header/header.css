@@ -1,19 +1,15 @@
 #header{
+    box-sizing: border-box;
     width: 100%;
     height: 6rem;
-    background-color: #BFE1CC;
-    box-sizing: border-box;
-    position: relative;
-
-}
-#h1{
-    width: 100%;
-    height: 5rem;
     display: flex;
+    background: transparent;
     justify-content: space-between;
     align-items: center;
-
+    backdrop-filter: blur(100px);
+    background-color: transparent;
 }
+
 #page-title{
     display: inline;
     font-family: 'outfit';

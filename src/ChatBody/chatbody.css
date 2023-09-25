@@ -44,6 +44,7 @@
   #chat-body {
     padding: 0;
     padding: 1rem;
+    height: calc(100vh - 11rem);
     
   }
 }

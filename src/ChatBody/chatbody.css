@@ -16,7 +16,7 @@
     width: 100%;
     height: calc(100vh - 11rem);
     padding: 2rem;
-    transition: .8s all;
+    transition: 1s all;
     /* scrollbar */
     scrollbar-width: thin;
     scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
@@ -42,6 +42,8 @@
 
 @media screen and (max-width: 768px) {
   #chat-body {
+    padding: 0;
     padding: 1rem;
+    
   }
 }

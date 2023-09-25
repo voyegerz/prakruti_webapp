@@ -1,9 +1,5 @@
 #search{
     width: 30rem;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    gap: 2rem;
     position: relative;
     
 
@@ -46,7 +42,7 @@
 
 }
 #filter{
-    margin-top: 1.3rem;
+    /* margin-top: 1.3rem;
     display: inline-block;
     background-color: #E9F2EF;
     border-radius: 6px;
@@ -57,7 +53,7 @@
     justify-content: center;
     align-items: flex-end;
     gap: 0.3rem;
-    cursor: pointer;
+    cursor: pointer; */
 }
 .line{
     width: 2rem;
@@ -73,17 +69,24 @@
 
 @media screen and (max-width: 768px) {
     #text-box {
-      width: 12rem;
+      width: 3rem;
       font-size: 0.8rem;
+      border-radius: 4rem;
+      margin-top: 2px;
     }
   
     #search-icon {
       width: 1.5rem;
-      top: 1rem;
+      top: .9rem;
     }
   
     #filter {
+      display: none;
+    }
+    #search{
+      border-radius: 10px;
+      margin:0;
       width: 2rem;
-      height: 2rem;
+      
     }
   }

@@ -2,3 +2,10 @@
     box-sizing: border-box;
     margin-left: 18rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .App{
+        margin: 0;
+    }
+}

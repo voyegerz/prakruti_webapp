@@ -10,7 +10,7 @@ export default function ChatBody() {
   const [chatMessages, setChatMessages] = useState([]);
   const chatBodyRef = useRef(null);
 
-  // Function to add a new chat message to the state
+  // new chat message to the state
   const addChatMessage = (message, className) => {
     const newMessage = { message, className };
     setChatMessages([...chatMessages, newMessage]);
@@ -37,7 +37,7 @@ export default function ChatBody() {
               <>
                 <div className="options">
                   <p id='option-1'>{message.message}</p>
-                  {/* Add other options here */}
+                  {/* i have to add other options here */}
                 </div>
                 <img src={UserAvatar} className='user-avatar' alt='User Avatar' />
               </>

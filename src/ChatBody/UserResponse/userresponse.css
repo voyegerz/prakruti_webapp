@@ -34,3 +34,9 @@
 .options p:active{
     background-color: #429677;
 }
+
+@media screen and (max-width: 768px){
+    .user-response{
+        margin-right: 0px;
+    }
+}

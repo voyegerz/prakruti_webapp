@@ -21,3 +21,10 @@
     max-width: 30rem;
     
 }
+
+@media screen and (max-width: 768px){
+    .bot-response{
+        margin-left: 0px;
+    }
+
+}

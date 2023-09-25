@@ -63,3 +63,9 @@
     background-color: var(--scrollbar-thumb-color);
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 768px){
+    #prompt-container{
+      width: 100%;
+    }
+  }

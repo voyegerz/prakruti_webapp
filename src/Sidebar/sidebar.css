@@ -57,47 +57,35 @@
 
 @media screen and (max-width: 768px) {
     #sidebar {
-      width: 100%;
-      height: auto;
-      flex-direction: row;
-      position: relative;
+      display: none;
     }
     
     #logo-container {
-      display: flex;
-      align-items: center;
-      padding: 1rem 0.5rem;
-      width: auto;
-      background-color: #F3F5F4;
+      
     }
   
     #logo-container img {
-      margin-left: 0;
-      padding: 0.5rem;
+      
     }
   
     #logo-container p {
-      font-size: small;
+     
     }
   
     .lr {
-      display: none;
+      
     }
   
     #team-name {
-      display: none;
+      
     }
   
     #line-with-diamonds {
-      display: none;
+    
     }
   
     .row {
-      width: 100%;
-      height: auto;
-      padding: 1rem 0.5rem;
-      flex-direction: row;
-      justify-content: center;
+      
     }
   }
   

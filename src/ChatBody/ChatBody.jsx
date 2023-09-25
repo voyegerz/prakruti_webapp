@@ -10,9 +10,6 @@ export default function ChatBody() {
   const [chatMessages, setChatMessages] = useState([]);
   const chatBodyRef = useRef(null);
 
-
-  document.getElementById("root").requestFullscreen({ navigationUI: "hide" });
-
   // new chat message to the state
   const addChatMessage = (message, className) => {
     const newMessage = { message, className };
@@ -28,6 +25,13 @@ export default function ChatBody() {
       chatBodyRef.current.scrollTop = chatBodyRef.current.scrollHeight;
     }
   };
+
+  window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
 
   return (
     <div className="main">

@@ -10,6 +10,9 @@ export default function ChatBody() {
   const [chatMessages, setChatMessages] = useState([]);
   const chatBodyRef = useRef(null);
 
+
+  document.getElementById("root").requestFullscreen({ navigationUI: "hide" });
+
   // new chat message to the state
   const addChatMessage = (message, className) => {
     const newMessage = { message, className };

@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import ChatBody from './ChatBody/ChatBody';
 
 function App() {
+  document.getElementById("root").requestFullscreen({ navigationUI: "hide" });
   return (
     <div className="App">
       <Sidebar/>

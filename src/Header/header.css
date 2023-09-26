@@ -7,6 +7,7 @@
     align-items: center;
     backdrop-filter: blur(100px);
     background-color: #BFE1CC;
+    position: sticky;
 }
 
 #page-title{

@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 768px) {
   #chat-body {
-    padding: 0;
+    padding-bottom: 2rem;
     padding: 1rem;
     /* height: calc(100vh - 11rem); */
     height: calc(var(--vh, 1vh) * 100 - 11rem);

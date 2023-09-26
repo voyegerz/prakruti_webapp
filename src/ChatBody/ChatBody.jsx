@@ -26,12 +26,14 @@ export default function ChatBody() {
     }
   };
 
-  window.addEventListener("load",function() {
-    setTimeout(function(){
-        // This hides the address bar:
-        window.scrollTo(0, 1);
-    }, 0);
-});
+  //// responsiveness
+
+  // We listen to the resize event
+  window.addEventListener('resize', () => {
+  // We execute the same script as before
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
 
   return (
     <div className="main">

@@ -10,7 +10,7 @@ export default function Header() {
         <p id="page-title">Assessment</p>
         <Search/>
         <img src={ProfileIcon} alt="Profile" id="profile-icon" />
-        {/* <p id='username' >Hi, Voyagers</p> */}
+        {/* <p id='username' >Hi, Voyagers,</p> */}
         <ProgressBar />
     </div>
   )
